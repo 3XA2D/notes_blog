@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://3xa2d.github.io',
-  base: '/notes-blog',
+  base: '/notes_blog',
   markdown: {
         remarkPlugins: [
             'remark-math',
