@@ -1,0 +1,15 @@
+---
+const { frontmatter } = Astro.props;
+import NBar from "../components/nav.astro"
+---
+<html>
+  <head>
+    <title>{frontmatter.title}</title>
+  </head>
+  <body>
+    <NBar />
+    <main style="padding-left: 6rem;">
+    <slot />
+    </main>
+  </body>
+</html>
